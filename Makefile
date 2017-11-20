@@ -1,7 +1,6 @@
 CC = g++
 TARGET = t2m 
-#LIBS = -L/usr/local/lib -lcryptopp
-CFLAGS = -I/usr/local/include -Wall -Wextra -std=c++14
+CFLAGS = -Wall -Wextra -std=c++14
 DBG = -g
 
 .PHONY: default all clean

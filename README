@@ -3,8 +3,11 @@ ASCII -> Morse:
 
 Usage:
 	Run without arguments and you'll be taken to a prompt that will convert stdin
-	Run with an argument and it will try and read in the file and it will spit out
-	the contents of that file both raw and converted to stdout.
+	Run with an argument (e.g. ./t2m input_file) and it will read input_file
+	and then spit out the original ASCII text and it's morse code counterpart.
+
+	Each morse code letter is separated by a space for legibility, and each word is separated
+	with a double space.
 
 Building:
 	Just run Make
