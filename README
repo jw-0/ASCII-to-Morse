@@ -1,4 +1,4 @@
-Text to Morse:
+ASCII -> Morse:
 	A simple (ASCII) text to morse converter.
 
 Usage:
