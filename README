@@ -1,0 +1,15 @@
+Text to Morse:
+	A simple (ASCII) text to morse converter.
+
+Usage:
+	Run without arguments and you'll be taken to a prompt that will convert stdin
+	Run with an argument and it will try and read in the file and it will spit out
+	the contents of that file both raw and converted to stdout.
+
+Building:
+	Just run Make
+
+Limitations:
+	Won't handle unicode characters, probably fail spectacularly if you try.
+
+All code is GPLv3.
